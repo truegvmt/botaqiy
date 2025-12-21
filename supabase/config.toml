@@ -1,0 +1,16 @@
+project_id = "btpgezajkorwtgpwtsdw"
+
+[functions.extract-text]
+verify_jwt = true
+
+[functions.generate-flashcards]
+verify_jwt = true
+
+[functions.generate-scenario]
+verify_jwt = true
+
+[functions.calculate-score]
+verify_jwt = true
+
+[functions.purchase-reward]
+verify_jwt = false
